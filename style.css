@@ -172,7 +172,15 @@ body {
     border-radius: 24px;
     font-size: 24px;
     color: rgb(251, 255, 0);
-}        
+    cursor: pointer;
+    transition: all .1s;
+}     
+
+.play-main__button:hover {
+    color: #000000;
+    border: 6px solid #470063;;
+    background-color: rgb(251, 255, 0);;
+}
 
 table {
     border-collapse: collapse;
